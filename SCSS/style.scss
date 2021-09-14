@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    height: 100px;
+    background: rgb(random(225), random(255), random(255));
+}
+
+.sidebar {
+    width: 20%;
+    float: left;
+    height: 400px;
+    background: rgb(random(225), random(255), random(255));
+}
+
+.main {
+    background: rgb(random(255), random(255), random(255));
+    width: 80%;
+    float: right;
+    height: 400px;
+}
+
+.footer {
+    background: rgb(random(225), random(255), random(255));
+    height: 120px;
+    clear: both;
+}

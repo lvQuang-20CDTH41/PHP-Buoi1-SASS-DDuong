@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center; }
+
+.header {
+  height: 100px;
+  background: #d54012; }
+
+.sidebar {
+  width: 20%;
+  float: left;
+  height: 400px;
+  background: #77452e; }
+
+.main {
+  background: #0a0dd1;
+  width: 80%;
+  float: right;
+  height: 400px; }
+
+.footer {
+  background: #1eaa8a;
+  height: 120px;
+  clear: both; }
